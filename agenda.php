@@ -1,5 +1,3 @@
-<?php @include('partials/head.php'); ?>
-<?php @include('partials/nav.php'); ?>
 
 
     <!-- Header -->
@@ -103,6 +101,3 @@
         </div>
     </section>
     <!-- End Agenda -->
-
-
-<?php @include('partials/footer.php'); ?>

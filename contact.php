@@ -1,6 +1,3 @@
-<?php @include('partials/head.php'); ?>
-<?php @include('partials/search-bar.php'); ?>
-<?php @include('partials/nav.php'); ?>
 
 	<!-- Header -->
 	        <header>
@@ -51,5 +48,5 @@
 
 
 
-<?php @include('partials/footer.php'); ?>
+
 

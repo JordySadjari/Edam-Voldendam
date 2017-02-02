@@ -1,0 +1,86 @@
+#sidebar {
+    left: 0;
+    top: 10px;
+    position: fixed;
+    background-color: #3e454c;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 64px;
+
+}
+
+#sidebar ul {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-underline: none;
+    text-decoration: none;
+    color: white;
+}
+
+#sidebar ul li {
+    display: inline-block;
+    height: 64px;
+    position: relative;
+    width: 64px;
+    margin-top: 5px;
+}
+
+.text {
+    background: rgba(0,0,0,0.5);
+    color: white;
+    cursor: pointer;
+    display: table;
+    height: 64px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 64px;
+    opacity: 0;
+}
+
+.text span {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#sidebar ul li:hover .text {
+    opacity: 1;
+}
+
+/* admin vereniginen*/
+
+ul.img-list {
+    list-style-type: none;
+    float: left;
+}
+
+ul.img-list li {
+    display: inline-block;
+    height: 203px;
+    position: relative;
+    width: 360px;
+    text-align: center;
+}
+
+span.text-content {
+    background: rgba(0,0,0,0.5);
+    color: white;
+    cursor: pointer;
+    display: table;
+    height: 203px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 360px;
+    opacity: 0;
+}
+
+ul.img-list li:hover span.text-content {
+    opacity: 1;
+}
